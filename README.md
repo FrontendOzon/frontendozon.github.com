@@ -1,2 +1,2 @@
 Портфолио ребят с New Skills
-https://frontendozon.github.com
+https://frontendozon.github.io/
