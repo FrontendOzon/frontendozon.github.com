@@ -1,0 +1,5 @@
+.main_link:hover{
+    transition: all 0.3s;
+    border-bottom: 1px solid #F81155;
+    color: #F81155;
+}
