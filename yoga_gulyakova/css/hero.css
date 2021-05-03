@@ -1,0 +1,55 @@
+.big_wrapper {
+    background-color: var(--bg__hero);
+    height: 720px;
+}
+.hero {
+    background-image: url('../media/hero.png');
+    height: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text {
+    width: 40%;
+    margin-left: 112px;
+    padding-top: 228px;
+}
+.hero_text__p {
+    font-size: 40px;
+    color: var(--text__black);
+    font-weight: 400;
+    transition: all 0.5s;
+    margin-bottom: 24px;
+}
+.hero_text__h1 {
+    font-size: 56px;
+    color: var(--text__black);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    transition: all 0.5s;
+    margin-bottom: 56px;
+}
+.hero_text_mobile__p {
+    display: none;
+}
+.hero_sign_up_mobile__btn {
+    display: none;
+}
+.hero_sign_up__btn {
+    height: 64px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+    letter-spacing: 0.01em;
+    padding: 18px 40px 21px 40px;
+    background-color: var(--orange__color);
+    border-radius: 32px;
+    border: none;
+    box-shadow: 0 4px 24px rgba(246,185,59,0.3);
+}
+.hero_sign_up__btn:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 32px rgba(246,185,59,0.6);
+    transform: translateY(4px);
+    transition: all 0.5s;
+}

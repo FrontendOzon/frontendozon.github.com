@@ -1,0 +1,112 @@
+.wrapper_team_mobile {
+    display: none;
+}
+.big_wrapper_team {
+    max-width: 1408px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.team_arrow_left {
+    margin: 0 8px 0 auto;
+}
+.team_arrow_right {
+    margin: 0 auto 0 8px;
+}
+.team {
+    width: 1312px;
+    margin-top: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper_team {
+    width: 100%;
+    margin: 48px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+.trainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 584px;
+}
+.trainer:hover {
+    cursor: pointer;
+    transform: translateY(8px);
+    transition: all 0.5s;
+}
+.trainer_img_1 {
+    background-image: url('../media/team1.png');
+    height: 480px;
+    width: 304px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.trainer_img_2 {
+    background-image: url('../media/team2.png');
+    height: 480px;
+    width: 304px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.trainer_img_3 {
+    background-image: url('../media/team3.png');
+    height: 480px;
+    width: 304px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.trainer_img_4 {
+    background-image: url('../media/team4.png');
+    height: 480px;
+    width: 304px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 24px;
+}
+.trainer_name__h1 {
+    width: 304px;
+    font-size: 24px;
+    color: var(--text__black);
+    font-weight: 600;
+    transition: all 0.5s;
+    letter-spacing: 0.01em;
+    margin-bottom: 8px;
+}
+.trainer_desc__p {
+    width: 304px;
+    font-size: 16px;
+    color: var(--text__black);
+    font-weight: 400;
+    transition: all 0.5s;
+    line-height: 130%;
+}
+.team_pages {
+    display: flex;
+    flex-direction: row;
+    width: 56px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.team_page {
+    background-image: url('../icons/pages.svg');
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+.selected_team_page {
+    opacity: 100%;
+}

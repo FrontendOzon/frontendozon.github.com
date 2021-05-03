@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: var(--default__font);
+    background-color: white;
+    opacity: 90%;
+}
+.logo {
+    background-image: url('../logo/logo.svg');
+    height: 48px;
+    width: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.btn_burger {
+    display: none;
+}
+.modal {
+    display: none;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    justify-content: space-between;
+    margin-left: 104px;
+}
+.nav__link {
+    font-size: 16px;
+    color: var(--text__black);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.nav__link:hover {
+    color: var(--orange__color);
+}
+.header_phone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 256px;
+}
+.header_phone__icon {
+    background-image: url('../icons/u_phone-volume.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+}
+.header_phone__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text__black);
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.02em;
+}
+.header_phone__link:hover {
+    color: var(--orange__color);
+}
+.header__sosial_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 104px;
+    margin-left: 48px;
+}
+.header_instagram {
+    background-image: url('../icons/fi_instagram.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header_whatsapp {
+    background-image: url('../icons/u_whatsapp.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header_facebook {
+    background-image: url('../icons/fi_facebook.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

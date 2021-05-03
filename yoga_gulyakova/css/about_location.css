@@ -1,0 +1,98 @@
+.about_location {
+    margin-top: 104px;
+    display: grid;
+    grid-template-columns: 33% 67%;
+}
+.about_loc_text {
+    display: flex;
+    flex-direction: column;
+}
+.about_loc__h1 {
+    margin-bottom: 32px;
+}
+.about_loc_metro {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: left;
+}
+.about_loc_metro__h1 {
+    font-size: 20px;
+    color: var(--text__black);
+    font-weight: 600;
+    transition: all 0.5s;
+    line-height: 130%;
+    margin-right: 8px;
+}
+.about_loc_metro__p {
+    font-size: 16px;
+    color: var(--text__black);
+    font-weight: 400;
+    transition: all 0.5s;
+    line-height: 150%;
+    opacity: 50%;
+}
+.about_loc_adress__p {
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: 16px;
+    color: var(--dark__blue);
+    font-weight: 400;
+    transition: all 0.5s;
+    line-height: 130%;
+}
+.about_loc__p {
+    margin-top: 24px;
+    width: 95%;
+    font-size: 20px;
+    color: var(--text__black);
+    font-weight: 400;
+    transition: all 0.5s;
+    line-height: 150%;
+    margin-right: 8px;
+}
+.about_loc_photo {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.about_loc_slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about_loc_arrow_left {
+    margin-right: 32px;
+}
+.about_loc_img {
+    background-image: url('../media/location1.png');
+    height: 428px;
+    width: 640px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_loc_arrow_right {
+    margin-left: 32px;
+}
+.location_pages {
+    display: flex;
+    flex-direction: row;
+    width: 56px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.location_page {
+    background-image: url('../icons/pages.svg');
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+.selected_location_page {
+    opacity: 100%;
+}

@@ -1,0 +1,6 @@
+.main_heading {
+    font-size: 40px;
+    color: var(--text__black);
+    font-weight: 600;
+    transition: all 0.5s;
+}

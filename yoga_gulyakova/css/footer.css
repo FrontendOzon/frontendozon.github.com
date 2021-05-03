@@ -1,0 +1,117 @@
+.big_wrapper_footer {
+    width: 100%;
+    background-color: var(--dark__blue);
+    color: white;
+    margin-top: 48px;
+    padding: 24px 0;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_logo {
+    background-image: url('../logo/logo_white.svg');
+    height: 32px;
+    width: 94px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    width: 468px;
+    justify-content: space-between;
+}
+.footer__link {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.footer_contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_tel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+.footer_tel_icon {
+    background-image: url('../icons/u_phone-volume_footer_white.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+}
+.footer_tel__p {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+.footer_social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-left: 48px;
+}
+.footer_social_whatsapp {
+    background-image: url('../icons/WhatsApp.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+.footer_social_vk {
+    background-image: url('../icons/vk.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+.footer_social_inst {
+    background-image: url('../icons/instagramm.svg');
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer_bottom {
+    opacity: 70%;
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_bottom__p {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}

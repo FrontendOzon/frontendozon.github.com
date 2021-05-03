@@ -1,0 +1,23 @@
+:root {
+    --bg__hero: #FFFAEF;
+    --text__black: #18191F;
+    --orange__color: #FA983A;
+    --shadow__orange: #F6B93B;
+    --light__blue: #3F8CFF;
+    --shadow__light__blue: #5B9DFF;
+    --dark__blue: #27508E;
+    --cards__shadow__blue: #97A5C1;
+    --textbox__dorder: #D1D1D2;
+    --default__font: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1312px;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: var(--default__font);
+}
+.big_wrapper {
+    width: 100%;
+}

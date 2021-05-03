@@ -1,0 +1,82 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 88px;
+}
+.about_text {
+    display: flex;
+    flex-direction: column;
+}
+.about_text__p {
+    font-size: 20px;
+    color: var(--text__black);
+    font-weight: 400;
+    transition: all 0.5s;
+    line-height: 150%;
+    margin-top: 32px;
+}
+.about_cards {
+    margin-left: 72px;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;*/
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 196px 196px;
+    gap: 24px;
+}
+.about_card {
+    width: 280px;
+    height: 196px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 88px rgba(151,165,193,0.2);
+    display: flex;
+    flex-direction: column;
+}
+.about_card:hover {
+    cursor: pointer;
+    transform: translateY(8px);
+    transition: all 0.5s;
+    box-shadow: 0 10px 88px rgba(151,165,193,0.3);
+}
+.about_card_icon {
+    margin: 24px auto 12px 24px;
+    height: 42px;
+    width: 42px;
+}
+.about_group {
+    background-image: url('../icons/u_users-alt.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_team {
+    background-image: url('../icons/fi_check-circle.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_health {
+    background-image: url('../icons/u_heart.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_time {
+    background-image: url('../icons/fi_smile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.about_card__h2 {
+    font-size: 18px;
+    color: var(--text__black);
+    font-weight: 600;
+    transition: all 0.5s;
+    margin-left: 24px;
+}
+.about_card__p {
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--text__black);
+    font-weight: 400;
+    transition: all 0.5s;
+    margin: 8px 24px 24px 24px;
+}
